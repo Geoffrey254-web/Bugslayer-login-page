@@ -270,7 +270,7 @@ export default function LoginPage() {
                   <Button
                     variant="link"
                     className="p-0 h-auto text-sm hover:text-opacity-80 font-medium cursor-pointer"
-                    style={{ color: "#3F3FF3" }}
+                    style={{ color: "#3F3Fk3" }}
                     onClick={() => setCurrentView("login")}
                   >
                     Go Back to Login.
