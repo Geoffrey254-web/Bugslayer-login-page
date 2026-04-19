@@ -171,7 +171,7 @@ export default function LoginPage() {
                     style={{ color: "#3F3FF3" }}
                     onClick={() => setCurrentView("forgot")}
                   >
-                    Forgot Your Password?
+                    d'yu remember Your Password?
                   </Button>
                 </div>
               )}
@@ -240,14 +240,14 @@ export default function LoginPage() {
             <div className="text-center text-sm text-muted-foreground">
               {currentView === "login" && (
                 <>
-                  Don't Have An Account?{" "}
+                  You Don't Have An Account?{" "}
                   <Button
                     variant="link"
                     className="p-0 h-auto text-sm hover:text-opacity-80 font-medium cursor-pointer"
                     style={{ color: "#3F3FF3" }}
                     onClick={() => setCurrentView("register")}
                   >
-                    Register Now.
+                    Should Register Now.
                   </Button>
                 </>
               )}
@@ -273,7 +273,7 @@ export default function LoginPage() {
                     style={{ color: "#3F3FF3" }}
                     onClick={() => setCurrentView("login")}
                   >
-                    Back to Login.
+                    Go Back to Login.
                   </Button>
                 </>
               )}
