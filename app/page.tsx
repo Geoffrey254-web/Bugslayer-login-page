@@ -26,7 +26,7 @@ export default function LoginPage() {
           <div className="flex-1 flex flex-col justify-center">
             <h2 className="text-4xl text-white mb-6 leading-tight">Effortlessly manage your team and operations.</h2>
             <p className="text-white/90 text-lg leading-relaxed">
-              Log in to access your CRM dashboard and manage your team.
+              Log in to access yu'r  dashboard and manage your team.
             </p>
           </div>
 
