@@ -266,7 +266,7 @@ export default function LoginPage() {
               )}
               {currentView === "forgot" && (
                 <>
-                  Remember Your Password?{" "}
+                  rem Your Password?{" "}
                   <Button
                     variant="link"
                     className="p-0 h-auto text-sm hover:text-opacity-80 font-medium cursor-pointer"
