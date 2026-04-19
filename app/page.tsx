@@ -260,7 +260,7 @@ export default function LoginPage() {
                     style={{ color: "#3F3FF3" }}
                     onClick={() => setCurrentView("login")}
                   >
-                    Sign In.
+                    log In.
                   </Button>
                 </>
               )}
