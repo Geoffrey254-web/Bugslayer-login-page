@@ -26,12 +26,12 @@ export default function LoginPage() {
           <div className="flex-1 flex flex-col justify-center">
             <h2 className="text-4xl text-white mb-6 leading-tight">Effortlessly manage your team and operations.</h2>
             <p className="text-white/90 text-lg leading-relaxed">
-              Log in to access your CRM dashboard and manage your team.
+              Log in to access yu'r  dashboard and manage your team.
             </p>
           </div>
 
           <div className="flex justify-between items-center text-white/70 text-sm">
-            <span>Copyright © 2025 Frello Enterprises LTD.</span>
+            <span>Copyright © 2025 Frello Enterprises limited.</span>
             <span className="cursor-pointer hover:text-white/90">Privacy Policy</span>
           </div>
         </div>
@@ -162,7 +162,7 @@ export default function LoginPage() {
                   <div className="flex items-center space-x-2">
                     <input type="checkbox" id="remember" className="rounded border-gray-300 cursor-pointer" />
                     <Label htmlFor="remember" className="text-sm text-muted-foreground cursor-pointer">
-                      Remember Me
+                      stay logged in.
                     </Label>
                   </div>
                   <Button
@@ -171,7 +171,7 @@ export default function LoginPage() {
                     style={{ color: "#3F3FF3" }}
                     onClick={() => setCurrentView("forgot")}
                   >
-                    Forgot Your Password?
+                    d'yu remember Your Password?
                   </Button>
                 </div>
               )}
@@ -240,14 +240,14 @@ export default function LoginPage() {
             <div className="text-center text-sm text-muted-foreground">
               {currentView === "login" && (
                 <>
-                  Don't Have An Account?{" "}
+                  You Don't Have An Account?{" "}
                   <Button
                     variant="link"
                     className="p-0 h-auto text-sm hover:text-opacity-80 font-medium cursor-pointer"
                     style={{ color: "#3F3FF3" }}
                     onClick={() => setCurrentView("register")}
                   >
-                    Register Now.
+                    Should Register Now.
                   </Button>
                 </>
               )}
@@ -260,20 +260,20 @@ export default function LoginPage() {
                     style={{ color: "#3F3FF3" }}
                     onClick={() => setCurrentView("login")}
                   >
-                    Sign In.
+                    log In.
                   </Button>
                 </>
               )}
               {currentView === "forgot" && (
                 <>
-                  Remember Your Password?{" "}
+                  rem Your Password?{" "}
                   <Button
                     variant="link"
                     className="p-0 h-auto text-sm hover:text-opacity-80 font-medium cursor-pointer"
-                    style={{ color: "#3F3FF3" }}
+                    style={{ color: "#3F3Fk3" }}
                     onClick={() => setCurrentView("login")}
                   >
-                    Back to Login.
+                    Go Back to Login.
                   </Button>
                 </>
               )}
