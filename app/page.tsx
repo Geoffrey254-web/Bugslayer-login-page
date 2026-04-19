@@ -31,7 +31,7 @@ export default function LoginPage() {
           </div>
 
           <div className="flex justify-between items-center text-white/70 text-sm">
-            <span>Copyright © 2025 Bugslayer Enterprises limited.</span>
+            <span>Copyright ©2026 Bugslayer Enterprises limited.</span>
             <span className="cursor-pointer hover:text-white/90">Privacy Policy</span>
           </div>
         </div>
