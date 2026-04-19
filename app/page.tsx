@@ -20,7 +20,7 @@ export default function LoginPage() {
             <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center mr-3">
               <div className="w-4 h-4 rounded-sm" style={{ backgroundColor: "#3F3FF3" }}></div>
             </div>
-            <h1 className="text-xl font-semibold text-white">Frello</h1>
+            <h1 className="text-xl font-semibold text-white">BUGSLAYER</h1>
           </div>
 
           <div className="flex-1 flex flex-col justify-center">
