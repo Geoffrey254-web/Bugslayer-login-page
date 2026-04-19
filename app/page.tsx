@@ -31,7 +31,7 @@ export default function LoginPage() {
           </div>
 
           <div className="flex justify-between items-center text-white/70 text-sm">
-            <span>Copyright © 2025 Frello Enterprises LTD.</span>
+            <span>Copyright © 2025 Frello Enterprises limited.</span>
             <span className="cursor-pointer hover:text-white/90">Privacy Policy</span>
           </div>
         </div>
@@ -162,7 +162,7 @@ export default function LoginPage() {
                   <div className="flex items-center space-x-2">
                     <input type="checkbox" id="remember" className="rounded border-gray-300 cursor-pointer" />
                     <Label htmlFor="remember" className="text-sm text-muted-foreground cursor-pointer">
-                      Remember Me
+                      stay logged in.
                     </Label>
                   </div>
                   <Button
