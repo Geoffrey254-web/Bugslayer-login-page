@@ -46,7 +46,7 @@ export default function LoginPage() {
                     htmlFor="name"
                     className="text-sm font-medium text-foreground"
                   >
-                    Full Name
+                    BUGSLAYER
                   </Label>
                   <Input
                     id="name"
