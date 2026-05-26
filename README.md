@@ -33,3 +33,28 @@ To learn more, take a look at the following resources:
 - [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
 
 <a href="https://v0.app/chat/api/kiro/clone/Geoffrey254-web/Bugslayer-login-page" alt="Open in Kiro"><img src="https://pdgvvgmkdvyeydso.public.blob.vercel-storage.com/open%20in%20kiro.svg?sanitize=true" /></a>
+✅ lib/
+  ├── constants.ts (branding, validation rules, messages)
+  ├── validation.ts (Zod schemas)
+  └── types.ts (shared TypeScript interfaces)
+
+✅ hooks/
+  ├── useAuthForm.ts (form submission state)
+  ├── useAuthState.ts (view transitions)
+  └── usePasswordVisibility.ts (password toggle)
+
+✅ components/auth/
+  ├── BrandLogo.tsx
+  ├── SidebarContent.tsx
+  ├── AuthLayout.tsx
+  ├── LoginForm.tsx (with validation)
+  ├── RegisterForm.tsx (with strong passwords)
+  ├── ForgotPasswordForm.tsx
+  ├── ErrorMessage.tsx (3 variants)
+  └── LoadingSpinner.tsx
+
+✅ Config & Pages
+  ├── app/page.tsx (refactored main page)
+  ├── app/layout.tsx (updated metadata)
+  ├── tsconfig.json (strict TypeScript)
+  └── .eslintrc.json (ESLint config)
